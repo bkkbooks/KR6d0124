@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6d0124/v1
+canonical_location: https://kanripo.org/bkk/KR6d0124/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大王觀世音經
+  identifiers:
+    alt_id:
+    - F01n0016
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/F/F01/F01n0016.xml
+    old_id: F01n0016
+  edition:
+    short: bkk
+editions:
+- {short: 房山, label: 房山, source_xml_id: wit.orig}
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0124_000.yaml, hash: 'sha256:b6725ba48b2e5b152fa18650aa798e90dad0738391a9054ee4c23da7095b9549'}
+  - {seq: 1, filename: KR6d0124_001.yaml, hash: 'sha256:216c546d1815ee963cbd0f8670ead3e9bcf73d1ddbd0686f8bd1ebf29dc1090c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0124_001.markers.yaml, hash: 'sha256:94c3442bdbcdcadb1cf8eb75ab91343215a49078b9ea4dae76339cbfafe33165'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0124_F_001-juan-start
+    span:
+    - body
+    - 0
+    - 236
+  label: 大王觀世音經一卷
+  type: juan
+  level: 1
+hash: sha256:ed5a7c98e826d7411243ea814cd9b92011f301ec00ca99a051c1c24577895e57
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

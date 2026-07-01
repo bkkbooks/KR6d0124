@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6d0124/F/v1
+canonical_location: https://kanripo.org/bkk/KR6d0124/F/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大王觀世音經
+  identifiers:
+    krp: KR6d0124
+    cbeta: F01n0016
+    cbeta_old_id: F01n0016
+    authorityid: CA0008064
+    json_key: F0016
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/F/F01/F01n0016.xml
+    old_id: F01n0016
+  edition:
+    short: F
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0124_000-F.yaml, hash: 'sha256:b6725ba48b2e5b152fa18650aa798e90dad0738391a9054ee4c23da7095b9549'}
+  - {seq: 1, filename: KR6d0124_001-F.yaml, hash: 'sha256:67be9e3a8fa6cf1745df689455de8c230504bc4dec8ca5c9dd69e4c2684619f9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0124_000-F.markers.yaml, hash: 'sha256:f56a985eb48f8d148b12ee212222a23709544093ddd4b9a549430e6f2242a77d'}
+  - {seq: 1, role: markers, filename: assets/KR6d0124_001-F.markers.yaml, hash: 'sha256:c544c9b5fef8a9ce29c51634d88c6ad1df1e919a5e741cba5e6dcdaa59b4a14f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0124_F_001-juan-start
+    span:
+    - body
+    - 0
+    - 236
+  label: 大王觀世音經一卷
+  type: juan
+  level: 1
+hash: sha256:0503b36d214c3f3bdf98de698167d9bb32fa99b0de801781dbe6ce8ebe648d69

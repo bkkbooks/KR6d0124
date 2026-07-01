@@ -1,0 +1,19 @@
+canonical_identifier: bkk:krp/KR6d0124/f/v1/juan/1
+seq: 1
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: 佛說觀世音經一卷讀誦千遍得度苦難拔除生死罪觀世音菩薩南無佛佛國有緣佛法相因常樂我淨南無摩訶波若是大神呪南無摩訶波若是大明呪南無摩訶波若是大等等呪淨光祕密佛法藏佛師子吼神足遊王佛告須弥登王佛法護佛金剛藏師子游戲佛藥師琉璃光佛普光功德山王佛善住功德寶王佛六方六佛名號東方寶光月殿妙尊音王佛南方樹根華王佛西方皂王神通焰華王佛北方月殿清淨佛上方無數精進寶首佛下方善寂月音王佛釋迦牟𡰱佛弥勒佛中央一切衆生在此世界中者行住於地上及在虛空中慈憂於一切令各安休息晝夜修治心常應誦此經消伏於
+  hash: sha256:0de4ad3404e9d7052d203c22b7dc63d3205c0e0baeb2c2ea41215c9761c97faa
+  markers:
+  - {type: 'cbeta:juan-start', offset: 0, content: 大王觀世音經一卷, id: KR6d0124_F_001-juan-start, juan_n: '001', jhead: 大王觀世音經一卷}
+metadata:
+  title: 大王觀世音經
+  edition:
+    short: f
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/F/F01/F01n0016.xml
+    old_id: F01n0016
+hash: sha256:216c546d1815ee963cbd0f8670ead3e9bcf73d1ddbd0686f8bd1ebf29dc1090c
