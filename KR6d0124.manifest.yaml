@@ -15,13 +15,16 @@ metadata:
   edition:
     short: bkk
 editions:
-- {short: 房山, label: 房山, source_xml_id: wit.orig}
+- short: 房山
+  label: 房山
+  source_xml_id: wit.orig
 assets:
   parts:
   - {seq: 0, filename: KR6d0124_000.yaml, hash: 'sha256:b6725ba48b2e5b152fa18650aa798e90dad0738391a9054ee4c23da7095b9549'}
-  - {seq: 1, filename: KR6d0124_001.yaml, hash: 'sha256:216c546d1815ee963cbd0f8670ead3e9bcf73d1ddbd0686f8bd1ebf29dc1090c'}
+  - {seq: 1, filename: KR6d0124_001.yaml, hash: 'sha256:67be9e3a8fa6cf1745df689455de8c230504bc4dec8ca5c9dd69e4c2684619f9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6d0124_001.markers.yaml, hash: 'sha256:94c3442bdbcdcadb1cf8eb75ab91343215a49078b9ea4dae76339cbfafe33165'}
+  - {seq: 0, role: markers, filename: assets/KR6d0124_000.markers.yaml, hash: 'sha256:bf3f07bab162188ddce48363a716f2216b3108802a538f91d5ff14a31e778218'}
+  - {seq: 1, role: markers, filename: assets/KR6d0124_001.markers.yaml, hash: 'sha256:c49f54d52104882d646c8b66039d587116d2bf99ae63f72354cee2d8c457ba0e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -33,7 +36,4 @@ table_of_contents:
   label: 大王觀世音經一卷
   type: juan
   level: 1
-hash: sha256:ed5a7c98e826d7411243ea814cd9b92011f301ec00ca99a051c1c24577895e57
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:32a2910cd70ddb9511f8ffe67986bee69667e78e751dfabbf9220b07b47e98a9
