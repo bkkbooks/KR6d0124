@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6d0124/v1
 canonical_location: https://kanripo.org/bkk/KR6d0124/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大王觀世音經
   identifiers:
@@ -21,10 +21,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0124_000.yaml, hash: 'sha256:b6725ba48b2e5b152fa18650aa798e90dad0738391a9054ee4c23da7095b9549'}
-  - {seq: 1, filename: KR6d0124_001.yaml, hash: 'sha256:67be9e3a8fa6cf1745df689455de8c230504bc4dec8ca5c9dd69e4c2684619f9'}
+  - {seq: 1, filename: KR6d0124_001.yaml, hash: 'sha256:9e0f3a7cfa21b49da4b549f6a934c5ad367c5ccc8e824d90d22aa16460318d60'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6d0124_000.markers.yaml, hash: 'sha256:bf3f07bab162188ddce48363a716f2216b3108802a538f91d5ff14a31e778218'}
-  - {seq: 1, role: markers, filename: assets/KR6d0124_001.markers.yaml, hash: 'sha256:c49f54d52104882d646c8b66039d587116d2bf99ae63f72354cee2d8c457ba0e'}
+  - {seq: 1, role: markers, filename: assets/KR6d0124_001.markers.yaml, hash: 'sha256:57b3a73fd22de141daf289732fcdc64c7374ba48cd3f0329cb39fc5729861cc3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,4 +36,7 @@ table_of_contents:
   label: 大王觀世音經一卷
   type: juan
   level: 1
-hash: sha256:32a2910cd70ddb9511f8ffe67986bee69667e78e751dfabbf9220b07b47e98a9
+hash: sha256:847971bafd843b52b96da9c7017657e2230f4cc29b917f5ab7c5cfeadf5b9c9c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
